@@ -1,0 +1,44 @@
+*{
+margin: 0;
+padding: 0;
+}
+.slide{
+width: 100vw;
+height: 100vw;
+}
+.wrapper{
+display: flex;
+flex-direction: row;
+width: 400vw;
+transform: rotate(90deg)translateY(-100vh);
+transform-origin: top left;
+}
+.uno{
+background: #777799;
+}
+.dos{
+background: #555577;
+}
+.tres{
+background: #777799;
+}
+.cuatro{
+background: #555577;
+}
+.outer-wrapper{
+width: 100vh;
+height: 100vw;
+transform: rotate(-90deg) translateX(-100vh);
+transform-origin: top left;
+overflow-y: scroll;
+overflow-x: hidden;
+position: absolute;
+}
+.text{
+text-shadow: 2px 2px black;
+padding: 10px 70px;
+overflow: hidden;
+position: absolute;
+font-size: 100px;
+color: white;
+}
